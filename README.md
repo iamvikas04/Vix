@@ -7,7 +7,7 @@ This is a discord made with discord.js and node
 
 ```js
 {
-  prefix: '!',
-  tokan: 'you tokan here'
+  "prefix": "!",
+  "tokan": "you tokan here"
 }
 
