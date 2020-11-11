@@ -1,6 +1,13 @@
 # Vix-bot
-This is a discord made with discord.js and node
+This is a very simple discord bot
 
+# Installation
+* First we need to install Node in our system
+* Then we need discord.js 
+
+```cmd
+npm install discord.js
+```
 
 # Setup
 * Just add your discord tokan to config.json
@@ -10,4 +17,6 @@ This is a discord made with discord.js and node
   "prefix": "!",
   "tokan": "you tokan here"
 }
+```
+
 
