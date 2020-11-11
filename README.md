@@ -3,7 +3,7 @@ This is a discord made with discord.js and node
 
 
 # Setup
-* JUst add your discord tokan to config.json
+* Just add your discord tokan to config.json
 
 ```js
 {
