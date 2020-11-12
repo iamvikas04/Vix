@@ -21,11 +21,21 @@ client.on('message', (message) => {
     const index = Math.floor(Math.random() * hellos.length);
     message.channel.send(hellos[index]);
   }
+
   if (message.content.toLocaleLowerCase() === `${prefix}info`) {
-    message.channel.send(`NAME: ${message.author.username}\nID: ${message.author.id}`);
+    message.channel.send('```NAME:' + message.author.username + '\n' + 'ID:' + message.author.id + '```');
   }
+
+  // if (message.content.toLocaleLowerCase() === `${prefix}info`) {
+  //   message.channel.send(`NAME: ${message.author.username}\nID: ${message.author.id}`);
+  // }
+
   
   if (message.content.toLocaleLowerCase() === `${prefix}server`) {
-    message.channel.send(`NAME: ${message.guild.name}\nTOTAL NUMBER: ${message.guild.memberCount}\nID: ${message.guild.id}`);
+    message.channel.send('```NAME:' + message.guild.name +'\n' + 'Total Member:' + message.guild.memberCount + '\n' + 'ID:' + message.guild.id + '```');
   }
+
+  // if (message.content.toLocaleLowerCase() === `${prefix}server`) {
+  //   message.channel.send(`NAME: ${message.guild.name}\nTOTAL NUMBER: ${message.guild.memberCount}\nID: ${message.guild.id}`);
+  // }
 });
