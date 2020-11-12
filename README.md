@@ -19,4 +19,8 @@ npm install discord.js
 }
 ```
 
+#Cammands
 
+* ```cmd 
+!hey
+```
