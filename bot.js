@@ -17,7 +17,7 @@ const hellos = [
 ];
 
 client.on('message', (message) => {
-  if (message.content.toLocaleLowerCase() === 'hey'){
+  if (message.content.toLocaleLowerCase() === `${prefix}hey`){
     const index = Math.floor(Math.random() * hellos.length);
     message.channel.send(hellos[index]);
   }
