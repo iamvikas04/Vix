@@ -20,7 +20,14 @@ npm install discord.js
 ```
 
 # Cammands
- 
+
 ```cmd 
 !hey
+```
+```cmd
+!info
+```
+
+```cmd
+!server
 ```
