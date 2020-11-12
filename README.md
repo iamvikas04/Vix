@@ -21,13 +21,33 @@ npm install discord.js
 
 # Cammands
 
+* Just Hello To Bot
 ```cmd 
 !hey
 ```
+
+* For Your  User Info
 ```cmd
 !info
 ```
-
+* For Server Info
 ```cmd
 !server
+```
+# Operator Commands
+* To Add Two Number
+```cmd
+!add firstNumber secondNumber
+```
+* To Subtract Two Number
+```cmd
+!sub firstNumber secondNumber
+```
+* To Multiply Two Number
+```cmd
+!mul firstNumber secondNumber
+```
+* To Divide Two Number
+```cmd
+!div firstNumber secondNumber
 ```
