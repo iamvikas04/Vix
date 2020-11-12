@@ -19,6 +19,11 @@ npm install discord.js
 }
 ```
 
+# To Run The Bot Locally
+```js
+node bot.js
+```
+
 # Cammands
 
 * Just Hello To Bot
