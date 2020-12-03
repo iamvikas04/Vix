@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const config = require('./config.json');
 const { prefix, token } = config;
 require('dotenv').config();
-client.login(process.env.TOKAN);
+client.login(process.env.TOKAN || token);
 
 client.on('ready', () => {
   console.log('ready');
