@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 const { prefix, token } = config;
-
-client.login(token);
+require('dotenv').config();
+client.login(process.env.TOKAN);
 
 client.on('ready', () => {
   console.log('ready');
@@ -16,6 +16,7 @@ const hellos = [
   'yeppdi Macha 🤟🏻'
 ];
 
+
 client.on('message', (message) => {
 
   if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -23,6 +24,8 @@ client.on('message', (message) => {
   if (arithmatic(message)) {
     message.channel.send(arithmatic(message));
   }
+
+  
   if (message.content.toLowerCase() === `${prefix}hey`){
     const index = Math.floor(Math.random() * hellos.length);
     message.channel.send(hellos[index]);
