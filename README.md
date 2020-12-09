@@ -2,10 +2,11 @@
 This is a very simple discord bot
 
 # Installation
-* First we need to install Node in our system
-* Then we need discord.js 
+* NODE SHOULD BE INSTALLED
+* we need discord.js 
 
 ```cmd
+npm install
 npm install discord.js
 ```
 
